@@ -1,3 +1,4 @@
+![Uploading image.png…]()
 Anaesthesia Vitals Digitizer
 
 A retrofit, camera-based system that reads vital signs from an existing anaesthesia monitor screen and generates a complete, timestamped digital anaesthesia record — without any cable into the monitor, any vendor SDK, or any change to theatre workflow.
