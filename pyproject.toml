@@ -1,0 +1,25 @@
+[project]
+name = "anest_visualdigi"
+version = "0.1.0"
+description = "Smart Anaesthesia Vitals Digitizer Phase 1"
+dependencies = [
+  "opencv-python>=4.7",
+  "numpy>=1.26",
+  "onnxruntime>=1.15",
+  "pydantic>=2.7",
+  "sqlalchemy>=2.3",
+  "typer[all]>=0.10",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"

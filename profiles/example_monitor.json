@@ -1,0 +1,34 @@
+{
+  "name": "example_anaesthesia_monitor",
+  "canonical_width": 1280,
+  "canonical_height": 720,
+  "parameters": [
+    {
+      "name": "HR",
+      "roi": [920, 120, 220, 120],
+      "expected_colour": "green",
+      "min": 30.0,
+      "max": 180.0,
+      "digits": 3,
+      "max_delta_per_sec": 20.0
+    },
+    {
+      "name": "SpO2",
+      "roi": [920, 260, 160, 100],
+      "expected_colour": "blue",
+      "min": 70.0,
+      "max": 100.0,
+      "digits": 3,
+      "max_delta_per_sec": 10.0
+    },
+    {
+      "name": "NIBP",
+      "roi": [400, 520, 220, 130],
+      "expected_colour": "white",
+      "min": 40.0,
+      "max": 200.0,
+      "digits": 3,
+      "max_delta_per_sec": 15.0
+    }
+  ]
+}
